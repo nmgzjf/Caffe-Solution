@@ -5,7 +5,7 @@ Forked from https://www.github.com/BVLC/caffe master branch in 27/10/2015.
 
 This is a VS2013 solution of BVLC Caffe, but not only a Caffe project. This solution contains 27 projects. After building, the solution will generate 18 executable files and 8 static library (8 .lib file).
 
-I have completed this work in in June 2005 in UTS. That solution is compiled in VS2013 with OpenCV3.0 + CUDA7.0 + cuDNN2. When I return to Beijing in September, I decided to update the solution. So I download the source code of BVLC Caffe last week, and completed the modification and compilation this week.
+I have completed this work in June 2005 in Sydney. That solution is compiled in VS2013 with OpenCV3.0 + CUDA7.0 + cuDNN2. When I return to Beijing in September, I decided to update the solution. So I download the source code of BVLC Caffe last week, and completed the modification and compilation this week.
 
 I greatly appreciate the work of these persons:
 
