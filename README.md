@@ -9,12 +9,20 @@ I have completed this work in June 2005 in Sydney. That solution is compiled in 
 
 I greatly appreciate the work of these persons:
 
-Neil Z. Shao, https://initialneil.wordpress.com/2015/01/11/build-caffe-in-windows-with-visual-studio-2013-cuda-6-5-opencv-2-4-9/
+Yangqing Jia and BVLC group
+https://github.com/BVLC/caffe
 
-Joshua_Li_, http://blog.csdn.net/joshua_1988/article/details/45036993, http://blog.csdn.net/joshua_1988/article/details/45048871
+Neil Z. Shao
+https://initialneil.wordpress.com/2015/01/11/build-caffe-in-windows-with-visual-studio-2013-cuda-6-5-opencv-2-4-9/
 
-wishchin, http://blog.csdn.net/wishchin/article/details/45339753
+Joshua_Li_：
+http://blog.csdn.net/joshua_1988/article/details/45036993
+http://blog.csdn.net/joshua_1988/article/details/45048871
 
-Feng Wang, https://github.com/happynear/caffe-windows
+wishchin
+http://blog.csdn.net/wishchin/article/details/45339753
 
+Feng Wang
+https://github.com/happynear/caffe-windows
 
+I will upload all the 3rdparty files later.
