@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\blob.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\common.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\data_reader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\data_transformer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\internal_thread.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\absval_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\accuracy_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\argmax_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\base_conv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\base_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\batch_norm_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\batch_reindex_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\bnll_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\concat_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\contrastive_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\conv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_conv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_lcn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_lrn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_pooling_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_relu_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_sigmoid_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_softmax_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_tanh_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\deconv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\dropout_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\dummy_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\eltwise_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\embed_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\euclidean_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\exp_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\filter_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\flatten_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\hdf5_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\hdf5_output_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\hinge_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\im2col_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\image_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\infogain_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\inner_product_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\log_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\lrn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\memory_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\multinomial_logistic_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\mvn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\neuron_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\pooling_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\power_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\prelu_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\reduction_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\relu_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\reshape_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\sigmoid_cross_entropy_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\sigmoid_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\silence_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\slice_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\softmax_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\softmax_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\split_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\spp_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\tanh_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\threshold_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\tile_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\window_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layer_factory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\net.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\parallel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\solver.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\solvers\adadelta_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\solvers\adagrad_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\solvers\adam_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\solvers\nesterov_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\solvers\rmsprop_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\solvers\sgd_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\syncedmem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\benchmark.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\blocking_queue.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\cudnn.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\db.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\db_leveldb.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\db_lmdb.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\hdf5.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\im2col.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\insert_splits.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\io.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\math_functions.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\signal_handler.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\upgrade_proto.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\blob.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\caffe.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\common.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\common_layers.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\data_layers.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\data_reader.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\data_transformer.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\filler.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\internal_thread.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\layer.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\layer_factory.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\loss_layers.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\net.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\neuron_layers.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\parallel.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\python_layer.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\sgd_solvers.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\solver.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\solver_factory.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\syncedmem.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\benchmark.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\blocking_queue.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\cudnn.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\db.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\db_leveldb.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\db_lmdb.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\device_alternate.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\hdf5.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\im2col.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\insert_splits.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\io.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\math_functions.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\mkl_alternate.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\rng.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\signal_handler.h">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\util\upgrade_proto.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\include\caffe\vision_layers.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\caffe\caffe_config.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\46e26fa97e2300c063d4f089118cabd0\caffe.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\absval_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\base_data_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\batch_norm_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\batch_reindex_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\bnll_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\concat_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\contrastive_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\conv_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_conv_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_lcn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_lrn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_pooling_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_relu_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_sigmoid_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_softmax_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\cudnn_tanh_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\deconv_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\dropout_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\eltwise_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\embed_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\euclidean_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\exp_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\filter_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\hdf5_data_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\hdf5_output_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\im2col_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\inner_product_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\log_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\lrn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\mvn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\pooling_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\power_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\prelu_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\reduction_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\relu_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\sigmoid_cross_entropy_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\sigmoid_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\silence_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\slice_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\softmax_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\softmax_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\split_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\tanh_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\threshold_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\layers\tile_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\im2col.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\util\math_functions.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\SoftwareDK\Caffe-Windows\src\caffe\proto\caffe.proto">
+      <Filter>Source\Proto</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_absval_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_base_data_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_batch_norm_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_batch_reindex_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_bnll_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_concat_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_contrastive_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_conv_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_cudnn_conv_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_cudnn_lcn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_cudnn_lrn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_cudnn_pooling_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_cudnn_relu_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_cudnn_sigmoid_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_cudnn_softmax_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_cudnn_tanh_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_deconv_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_dropout_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_eltwise_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_embed_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_euclidean_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_exp_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_filter_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_hdf5_data_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_hdf5_output_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_im2col_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_inner_product_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_log_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_lrn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_mvn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_pooling_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_power_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_prelu_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_reduction_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_relu_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_sigmoid_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_silence_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_slice_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_softmax_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_softmax_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_split_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_tanh_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_threshold_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\layers\$(Configuration)\cuda_compile_generated_tile_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\util\$(Configuration)\cuda_compile_generated_im2col.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\SoftwareDK\Caffe-Windows\caffe\src\caffe\CMakeFiles\cuda_compile.dir\util\$(Configuration)\cuda_compile_generated_math_functions.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Util">
+      <UniqueIdentifier>{92D9E6DD-328D-4DB2-A908-8840D56C8FB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Layers">
+      <UniqueIdentifier>{7A24F1B8-D23C-4BA1-B297-2436ABB501BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Cuda">
+      <UniqueIdentifier>{F994B10A-78C8-4300-ABE7-B2D37E7A7829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Proto">
+      <UniqueIdentifier>{378DF49B-6835-4961-A527-49C6082824CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Util">
+      <UniqueIdentifier>{FCAE4F1D-9603-4020-A482-57F079E8F506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D6102597-C25C-48C0-9D25-51352A668723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2DB1DD22-5854-4FD1-AA0C-88230B789215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{ECEC8AB6-8C25-4D07-BCDA-0895A60EBFC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{D7110050-E640-4EE8-8551-A359CEBDCB1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{61D47C4E-AC3A-48C3-8CDE-78FD90A44528}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

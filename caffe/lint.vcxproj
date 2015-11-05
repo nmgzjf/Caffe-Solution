@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F7AC4B42-EC9E-4922-BAFB-9E66FC94DD80}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>lint</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SoftwareDK\Caffe-Windows\src;D:\SoftwareDK\3rdparty\Boost-1.58.0;D:\SoftwareDK\3rdparty\glog\src\windows;D:\SoftwareDK\3rdparty\gflags\bin\include;D:\SoftwareDK\3rdparty\protobuf\src;D:\SoftwareDK\Caffe-Windows\caffe\include;D:\SoftwareDK\3rdparty\hdf5\include;D:\SoftwareDK\3rdparty\hdf5\src;D:\SoftwareDK\3rdparty\liblmdb;D:\SoftwareDK\3rdparty\leveldb\include;D:\SoftwareDK\3rdparty\snappy;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;D:\SoftwareDK\3rdparty\cuda\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include\opencv;D:\SoftwareDK\3rdparty\OpenBLAS\include;C:\Users\Jianfeng\Anaconda\include;C:\Users\Jianfeng\Anaconda\lib\site-packages\numpy\core\include;D:\SoftwareDK\Caffe-Windows\include;D:\SoftwareDK\Caffe-Windows\caffe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SoftwareDK\Caffe-Windows\src;D:\SoftwareDK\3rdparty\Boost-1.58.0;D:\SoftwareDK\3rdparty\glog\src\windows;D:\SoftwareDK\3rdparty\gflags\bin\include;D:\SoftwareDK\3rdparty\protobuf\src;D:\SoftwareDK\Caffe-Windows\caffe\include;D:\SoftwareDK\3rdparty\hdf5\include;D:\SoftwareDK\3rdparty\hdf5\src;D:\SoftwareDK\3rdparty\liblmdb;D:\SoftwareDK\3rdparty\leveldb\include;D:\SoftwareDK\3rdparty\snappy;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;D:\SoftwareDK\3rdparty\cuda\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include\opencv;D:\SoftwareDK\3rdparty\OpenBLAS\include;C:\Users\Jianfeng\Anaconda\include;C:\Users\Jianfeng\Anaconda\lib\site-packages\numpy\core\include;D:\SoftwareDK\Caffe-Windows\include;D:\SoftwareDK\Caffe-Windows\caffe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/SoftwareDK/Caffe-Windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake-3.4.0\bin\cmake.exe" -HD:/SoftwareDK/Caffe-Windows -BD:/SoftwareDK/Caffe-Windows/caffe --check-stamp-file D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/SoftwareDK/Caffe-Windows/CMakeLists.txt;D:\SoftwareDK\Caffe-Windows\CMakeLists.txt;D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\3.4.0-rc2\CMakeSystem.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\3.4.0-rc2\CMakeCCompiler.cmake;D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\3.4.0-rc2\CMakeCXXCompiler.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\3.4.0-rc2\CMakeRCCompiler.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\ExternalProject.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Utils.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Targets.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Misc.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Summary.cmake;D:\SoftwareDK\Caffe-Windows\cmake\ConfigGen.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Dependencies.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindBoost.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindThreads.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\External\glog.cmake;D:\SoftwareDK\Caffe-Windows\cmake\External\gflags.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindGFlags.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindGlog.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\External\gflags.cmake;D:\SoftwareDK\Caffe-Windows\cmake\ProtoBuf.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindProtobuf.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindHDF5.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\3rdparty\hdf5\cmake\hdf5-config.cmake;D:\SoftwareDK\3rdparty\hdf5\cmake\hdf5-targets.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindLMDB.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindLevelDB.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindSnappy.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Cuda.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindCUDA.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\OpenCVConfig.cmake;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\OpenCVModules.cmake;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\OpenCVModules-debug.cmake;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\OpenCVModules-release.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindOpenBLAS.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPythonInterp.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPythonLibs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeFindFrameworks.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindNumPy.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindBoost.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Templates\caffe_config.h.in;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindGit.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Templates\CaffeConfig.cmake.in;D:\SoftwareDK\Caffe-Windows\cmake\Templates\CaffeConfig.cmake.in;D:\SoftwareDK\Caffe-Windows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/SoftwareDK/Caffe-Windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake-3.4.0\bin\cmake.exe" -HD:/SoftwareDK/Caffe-Windows -BD:/SoftwareDK/Caffe-Windows/caffe --check-stamp-file D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/SoftwareDK/Caffe-Windows/CMakeLists.txt;D:\SoftwareDK\Caffe-Windows\CMakeLists.txt;D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\3.4.0-rc2\CMakeSystem.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\3.4.0-rc2\CMakeCCompiler.cmake;D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\3.4.0-rc2\CMakeCXXCompiler.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\Windows.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeCInformation.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\3.4.0-rc2\CMakeRCCompiler.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\ExternalProject.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Utils.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Targets.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Misc.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Summary.cmake;D:\SoftwareDK\Caffe-Windows\cmake\ConfigGen.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Dependencies.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindBoost.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindThreads.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\External\glog.cmake;D:\SoftwareDK\Caffe-Windows\cmake\External\gflags.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindGFlags.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindGlog.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\External\gflags.cmake;D:\SoftwareDK\Caffe-Windows\cmake\ProtoBuf.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindProtobuf.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindHDF5.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\3rdparty\hdf5\cmake\hdf5-config.cmake;D:\SoftwareDK\3rdparty\hdf5\cmake\hdf5-targets.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindLMDB.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindLevelDB.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindSnappy.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Cuda.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindCUDA.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\OpenCVConfig.cmake;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\OpenCVModules.cmake;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\OpenCVModules-debug.cmake;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\OpenCVModules-release.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindOpenBLAS.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPythonInterp.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPythonLibs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeFindFrameworks.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Modules\FindNumPy.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindBoost.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Templates\caffe_config.h.in;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindGit.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\FindPackageMessage.cmake;D:\Program Files\CMake-3.4.0\share\cmake-3.4\Modules\CMakeParseArguments.cmake;D:\SoftwareDK\Caffe-Windows\cmake\Templates\CaffeConfig.cmake.in;D:\SoftwareDK\Caffe-Windows\cmake\Templates\CaffeConfig.cmake.in;D:\SoftwareDK\Caffe-Windows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\0ff02c2395d44252d24ecb890e163c92\lint.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake-3.4.0\bin\cmake.exe" -P D:/SoftwareDK/Caffe-Windows/cmake/lint.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/SoftwareDK/Caffe-Windows/caffe/CMakeFiles/0ff02c2395d44252d24ecb890e163c92/lint.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\lint</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake-3.4.0\bin\cmake.exe" -P D:/SoftwareDK/Caffe-Windows/cmake/lint.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/SoftwareDK/Caffe-Windows/caffe/CMakeFiles/0ff02c2395d44252d24ecb890e163c92/lint.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\lint</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\lint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/SoftwareDK/Caffe-Windows/caffe/ZERO_CHECK.vcxproj">
+      <Project>AF195030-ECC8-4852-9A7C-9BE46E40D6FB</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

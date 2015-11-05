@@ -1,0 +1,103 @@
+# CMake generation dependency list for this directory.
+D:/SoftwareDK/Caffe-Windows/CMakeLists.txt
+D:/SoftwareDK/Caffe-Windows/caffe/CMakeFiles/3.4.0-rc2/CMakeSystem.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeSystemSpecificInitialize.cmake
+D:/SoftwareDK/Caffe-Windows/caffe/CMakeFiles/3.4.0-rc2/CMakeCCompiler.cmake
+D:/SoftwareDK/Caffe-Windows/caffe/CMakeFiles/3.4.0-rc2/CMakeCXXCompiler.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeGenericSystem.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/Platform/Windows.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/Platform/WindowsPaths.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeCInformation.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/Platform/Windows-MSVC.cmake
+D:/SoftwareDK/Caffe-Windows/caffe/CMakeFiles/3.4.0-rc2/CMakeRCCompiler.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeRCInformation.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeCXXInformation.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/Compiler/MSVC-CXX.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/ExternalProject.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Utils.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Targets.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Misc.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Summary.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/ConfigGen.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Dependencies.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindBoost.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindThreads.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CheckSymbolExists.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/External/glog.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/External/gflags.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Modules/FindGFlags.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Modules/FindGlog.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/External/gflags.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/ProtoBuf.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindProtobuf.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindHDF5.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/SelectLibraryConfigurations.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/SoftwareDK/3rdparty/hdf5/cmake/hdf5-config.cmake
+D:/SoftwareDK/3rdparty/hdf5/cmake/hdf5-targets.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Modules/FindLMDB.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Modules/FindLevelDB.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Modules/FindSnappy.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Cuda.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindCUDA.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/SoftwareDK/OpenCV-3.0.0/build/x64/vc12/staticlib/OpenCVConfig.cmake
+D:/SoftwareDK/OpenCV-3.0.0/build/x64/vc12/staticlib/OpenCVModules.cmake
+D:/SoftwareDK/OpenCV-3.0.0/build/x64/vc12/staticlib/OpenCVModules-debug.cmake
+D:/SoftwareDK/OpenCV-3.0.0/build/x64/vc12/staticlib/OpenCVModules-release.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Modules/FindOpenBLAS.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPythonInterp.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPythonLibs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeFindFrameworks.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/SelectLibraryConfigurations.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Modules/FindNumPy.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindBoost.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Templates/caffe_config.h.in
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindGit.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/CMakeParseArguments.cmake
+D:/SoftwareDK/Caffe-Windows/cmake/Templates/CaffeConfig.cmake.in
+D:/SoftwareDK/Caffe-Windows/cmake/Templates/CaffeConfig.cmake.in

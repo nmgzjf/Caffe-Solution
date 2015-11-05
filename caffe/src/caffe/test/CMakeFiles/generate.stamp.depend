@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/SoftwareDK/Caffe-Windows/src/caffe/test/CMakeLists.txt
+D:/SoftwareDK/Caffe-Windows/caffe/src/caffe/test/CMakeFiles/cuda_compile.dir/cuda_compile_generated_test_im2col_kernel.cu.obj.depend
+D:/Program Files/CMake-3.4.0/share/cmake-3.4/Modules/FindCUDA/run_nvcc.cmake

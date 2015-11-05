@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{CD9BA3CD-B890-4662-9C00-5C344D97ABBF}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>net_speed_benchmark</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SoftwareDK\Caffe-Windows\caffe\tools\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">net_speed_benchmark.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">net_speed_benchmark-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SoftwareDK\Caffe-Windows\caffe\tools\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">net_speed_benchmark.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">net_speed_benchmark</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Jianfeng\Anaconda\include;C:\Users\Jianfeng\Anaconda\lib\site-packages\numpy\core\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;D:\SoftwareDK\Caffe-Windows\include;D:\SoftwareDK\Caffe-Windows\src;D:\SoftwareDK\Caffe-Windows\caffe;D:\SoftwareDK\Caffe-Windows\caffe\include;D:\SoftwareDK\3rdparty\Boost-1.58.0;D:\SoftwareDK\3rdparty\cuda\include;D:\SoftwareDK\3rdparty\glog\src\windows;D:\SoftwareDK\3rdparty\gflags\bin\include;D:\SoftwareDK\3rdparty\hdf5\include;D:\SoftwareDK\3rdparty\hdf5\hl\src;D:\SoftwareDK\3rdparty\hdf5\src;D:\SoftwareDK\3rdparty\liblmdb;D:\SoftwareDK\3rdparty\leveldb\include;D:\SoftwareDK\3rdparty\OpenBLAS\include;D:\SoftwareDK\3rdparty\protobuf\src;D:\SoftwareDK\3rdparty\snappy;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include\opencv;D:\SoftwareDK\OpenCV-3.0.0\sources\include;D:\SoftwareDK\OpenCV-3.0.0\sources\include\opencv;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\hal\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudev\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\core\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudaarithm\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\flann\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\imgproc\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\ml\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\video\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\viz\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudabgsegm\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudafilters\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudaimgproc\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudawarping\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\imgcodecs\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\photo\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\shape\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\videoio\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudacodec\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\highgui\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\objdetect\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\ts\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\features2d\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\calib3d\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudafeatures2d\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudalegacy\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudaobjdetect\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudaoptflow\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\cudastereo\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\stitching\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\superres\include;D:\SoftwareDK\OpenCV-3.0.0\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;USE_LMDB;ALLOW_LMDB_NOLOCK;USE_LEVELDB;USE_CUDNN;USE_OPENCV;WITH_PYTHON_LAYER;GTEST_USE_OWN_TR1_TUPLE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;USE_LMDB;ALLOW_LMDB_NOLOCK;USE_LEVELDB;USE_CUDNN;USE_OPENCV;WITH_PYTHON_LAYER;GTEST_USE_OWN_TR1_TUPLE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SoftwareDK\Caffe-Windows\src;D:\SoftwareDK\3rdparty\Boost-1.58.0;D:\SoftwareDK\3rdparty\glog\src\windows;D:\SoftwareDK\3rdparty\gflags\bin\include;D:\SoftwareDK\3rdparty\protobuf\src;D:\SoftwareDK\Caffe-Windows\caffe\include;D:\SoftwareDK\3rdparty\hdf5\include;D:\SoftwareDK\3rdparty\hdf5\src;D:\SoftwareDK\3rdparty\liblmdb;D:\SoftwareDK\3rdparty\leveldb\include;D:\SoftwareDK\3rdparty\snappy;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;D:\SoftwareDK\3rdparty\cuda\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include\opencv;D:\SoftwareDK\3rdparty\OpenBLAS\include;C:\Users\Jianfeng\Anaconda\include;C:\Users\Jianfeng\Anaconda\lib\site-packages\numpy\core\include;D:\SoftwareDK\Caffe-Windows\include;D:\SoftwareDK\Caffe-Windows\caffe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SoftwareDK\Caffe-Windows\src;D:\SoftwareDK\3rdparty\Boost-1.58.0;D:\SoftwareDK\3rdparty\glog\src\windows;D:\SoftwareDK\3rdparty\gflags\bin\include;D:\SoftwareDK\3rdparty\protobuf\src;D:\SoftwareDK\Caffe-Windows\caffe\include;D:\SoftwareDK\3rdparty\hdf5\include;D:\SoftwareDK\3rdparty\hdf5\src;D:\SoftwareDK\3rdparty\liblmdb;D:\SoftwareDK\3rdparty\leveldb\include;D:\SoftwareDK\3rdparty\snappy;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;D:\SoftwareDK\3rdparty\cuda\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include\opencv;D:\SoftwareDK\3rdparty\OpenBLAS\include;C:\Users\Jianfeng\Anaconda\include;C:\Users\Jianfeng\Anaconda\lib\site-packages\numpy\core\include;D:\SoftwareDK\Caffe-Windows\include;D:\SoftwareDK\Caffe-Windows\caffe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;vfw32.lib;comctl32.lib;setupapi.lib;ws2_32.lib;cudart.lib;curand.lib;cublas.lib;shlwapi.lib;libboost_filesystem-vc120-mt-gd-1_58.lib;libboost_chrono-vc120-mt-gd-1_58.lib;libboost_system-vc120-mt-gd-1_58.lib;libboost_date_time-vc120-mt-gd-1_58.lib;libboost_thread-vc120-mt-gd-1_58.lib;boost_system-vc120-mt-gd-1_58.lib;boost_thread-vc120-mt-gd-1_58.lib;boost_python-vc120-mt-gd-1_58.lib;opencv_highgui300d.lib;opencv_videoio300d.lib;opencv_imgcodecs300d.lib;opencv_imgproc300d.lib;opencv_core300d.lib;opencv_hal300d.lib;..\bin\Debug\caffe-d.lib;..\lib\Debug\proto-d.lib;C:\Users\Jianfeng\Anaconda\libs\python27_d.lib;D:\SoftwareDK\3rdparty\cuda\lib\x64\cudnn.lib;D:\SoftwareDK\3rdparty\gflags\bin\lib\Debug\gflags.lib;D:\SoftwareDK\3rdparty\glog\x64\Debug\libglog.lib;D:\SoftwareDK\3rdparty\hdf5\cmake\bin\Debug\libhdf5_D.lib;D:\SoftwareDK\3rdparty\hdf5\cmake\bin\Debug\libhdf5_hl_D.lib;D:\SoftwareDK\3rdparty\liblmdb\x64\Debug\lmdb.lib;D:\SoftwareDK\3rdparty\leveldb\build\Debug\leveldbd.lib;D:\SoftwareDK\3rdparty\OpenBLAS\lib\libopenblas.dll.a;D:\SoftwareDK\3rdparty\protobuf\cmake\build\Debug\libprotobuf.lib;D:\SoftwareDK\3rdparty\snappy\snappy-msvc\x64\Debug\snappy.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64;D:\SoftwareDK\3rdparty\Boost-1.58.0\lib64-msvc-12.0;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12+cuda7.5\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/SoftwareDK/Caffe-Windows/caffe/lib/Debug/net_speed_benchmark-d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/SoftwareDK/Caffe-Windows/caffe/tools/Debug/net_speed_benchmark-d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\SoftwareDK\Caffe-Windows\src;D:\SoftwareDK\3rdparty\Boost-1.58.0;D:\SoftwareDK\3rdparty\glog\src\windows;D:\SoftwareDK\3rdparty\gflags\bin\include;D:\SoftwareDK\3rdparty\protobuf\src;D:\SoftwareDK\Caffe-Windows\caffe\include;D:\SoftwareDK\3rdparty\hdf5\include;D:\SoftwareDK\3rdparty\hdf5\src;D:\SoftwareDK\3rdparty\liblmdb;D:\SoftwareDK\3rdparty\leveldb\include;D:\SoftwareDK\3rdparty\snappy;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;D:\SoftwareDK\3rdparty\cuda\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include\opencv;D:\SoftwareDK\3rdparty\OpenBLAS\include;C:\Users\Jianfeng\Anaconda\include;C:\Users\Jianfeng\Anaconda\lib\site-packages\numpy\core\include;D:\SoftwareDK\Caffe-Windows\include;D:\SoftwareDK\Caffe-Windows\caffe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_LMDB;ALLOW_LMDB_NOLOCK;USE_LEVELDB;USE_CUDNN;USE_OPENCV;WITH_PYTHON_LAYER;GTEST_USE_OWN_TR1_TUPLE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_LMDB;ALLOW_LMDB_NOLOCK;USE_LEVELDB;USE_CUDNN;USE_OPENCV;WITH_PYTHON_LAYER;GTEST_USE_OWN_TR1_TUPLE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SoftwareDK\Caffe-Windows\src;D:\SoftwareDK\3rdparty\Boost-1.58.0;D:\SoftwareDK\3rdparty\glog\src\windows;D:\SoftwareDK\3rdparty\gflags\bin\include;D:\SoftwareDK\3rdparty\protobuf\src;D:\SoftwareDK\Caffe-Windows\caffe\include;D:\SoftwareDK\3rdparty\hdf5\include;D:\SoftwareDK\3rdparty\hdf5\src;D:\SoftwareDK\3rdparty\liblmdb;D:\SoftwareDK\3rdparty\leveldb\include;D:\SoftwareDK\3rdparty\snappy;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;D:\SoftwareDK\3rdparty\cuda\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include\opencv;D:\SoftwareDK\3rdparty\OpenBLAS\include;C:\Users\Jianfeng\Anaconda\include;C:\Users\Jianfeng\Anaconda\lib\site-packages\numpy\core\include;D:\SoftwareDK\Caffe-Windows\include;D:\SoftwareDK\Caffe-Windows\caffe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SoftwareDK\Caffe-Windows\src;D:\SoftwareDK\3rdparty\Boost-1.58.0;D:\SoftwareDK\3rdparty\glog\src\windows;D:\SoftwareDK\3rdparty\gflags\bin\include;D:\SoftwareDK\3rdparty\protobuf\src;D:\SoftwareDK\Caffe-Windows\caffe\include;D:\SoftwareDK\3rdparty\hdf5\include;D:\SoftwareDK\3rdparty\hdf5\src;D:\SoftwareDK\3rdparty\liblmdb;D:\SoftwareDK\3rdparty\leveldb\include;D:\SoftwareDK\3rdparty\snappy;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include;D:\SoftwareDK\3rdparty\cuda\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12\staticlib\include\opencv;D:\SoftwareDK\3rdparty\OpenBLAS\include;C:\Users\Jianfeng\Anaconda\include;C:\Users\Jianfeng\Anaconda\lib\site-packages\numpy\core\include;D:\SoftwareDK\Caffe-Windows\include;D:\SoftwareDK\Caffe-Windows\caffe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;vfw32.lib;comctl32.lib;setupapi.lib;ws2_32.lib;cudart.lib;curand.lib;cublas.lib;shlwapi.lib;libboost_filesystem-vc120-mt-1_58.lib;libboost_chrono-vc120-mt-1_58.lib;libboost_system-vc120-mt-1_58.lib;libboost_date_time-vc120-mt-1_58.lib;libboost_thread-vc120-mt-1_58.lib;boost_system-vc120-mt-1_58.lib;boost_thread-vc120-mt-1_58.lib;boost_python-vc120-mt-1_58.lib;opencv_highgui300.lib;opencv_videoio300.lib;opencv_imgcodecs300.lib;opencv_imgproc300.lib;opencv_core300.lib;opencv_hal300.lib;..\bin\Release\caffe.lib;..\lib\Release\proto.lib;C:\Users\Jianfeng\Anaconda\libs\python27.lib;D:\SoftwareDK\3rdparty\cuda\lib\x64\cudnn.lib;D:\SoftwareDK\3rdparty\gflags\bin\lib\Release\gflags.lib;D:\SoftwareDK\3rdparty\glog\x64\Release\libglog.lib;D:\SoftwareDK\3rdparty\hdf5\cmake\bin\Release\libhdf5.lib;D:\SoftwareDK\3rdparty\hdf5\cmake\bin\Release\libhdf5_hl.lib;D:\SoftwareDK\3rdparty\liblmdb\x64\Release\lmdb.lib;D:\SoftwareDK\3rdparty\leveldb\build\Release\leveldb.lib;D:\SoftwareDK\3rdparty\OpenBLAS\lib\libopenblas.dll.a;D:\SoftwareDK\3rdparty\protobuf\cmake\build\Release\libprotobuf.lib;D:\SoftwareDK\3rdparty\snappy\snappy-msvc\x64\Release\snappy.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64;D:\SoftwareDK\3rdparty\Boost-1.58.0\lib64-msvc-12.0;D:\SoftwareDK\OpenCV-3.0.0\build\x64\vc12+cuda7.5\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/SoftwareDK/Caffe-Windows/caffe/lib/Release/net_speed_benchmark.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/SoftwareDK/Caffe-Windows/caffe/tools/Release/net_speed_benchmark.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\tools\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/SoftwareDK/Caffe-Windows/tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake-3.4.0\bin\cmake.exe" -HD:/SoftwareDK/Caffe-Windows -BD:/SoftwareDK/Caffe-Windows/caffe --check-stamp-file D:\SoftwareDK\Caffe-Windows\caffe\tools\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/SoftwareDK/Caffe-Windows/tools/CMakeLists.txt;D:\SoftwareDK\Caffe-Windows\tools\CMakeLists.txt;D:\SoftwareDK\Caffe-Windows\tools\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SoftwareDK\Caffe-Windows\caffe\tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/SoftwareDK/Caffe-Windows/tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake-3.4.0\bin\cmake.exe" -HD:/SoftwareDK/Caffe-Windows -BD:/SoftwareDK/Caffe-Windows/caffe --check-stamp-file D:\SoftwareDK\Caffe-Windows\caffe\tools\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/SoftwareDK/Caffe-Windows/tools/CMakeLists.txt;D:\SoftwareDK\Caffe-Windows\tools\CMakeLists.txt;D:\SoftwareDK\Caffe-Windows\tools\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SoftwareDK\Caffe-Windows\caffe\tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\tools\net_speed_benchmark.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/SoftwareDK/Caffe-Windows/caffe/ZERO_CHECK.vcxproj">
+      <Project>AF195030-ECC8-4852-9A7C-9BE46E40D6FB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/SoftwareDK/Caffe-Windows/caffe/src/caffe/caffe.vcxproj">
+      <Project>9735BCA4-802E-4590-AAD5-2E4611A827DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/SoftwareDK/Caffe-Windows/caffe/src/caffe/proto.vcxproj">
+      <Project>5A74D39A-6688-4FF4-9FAD-BCD01DED5A6D</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

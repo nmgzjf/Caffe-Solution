@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\SoftwareDK\Caffe-Windows\caffe\include\caffe\proto\caffe.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\SoftwareDK\Caffe-Windows\caffe\include\caffe\proto\caffe.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\src\caffe\CMakeLists.txt" />
+    <CustomBuild Include="D:\SoftwareDK\Caffe-Windows\caffe\CMakeFiles\46e26fa97e2300c063d4f089118cabd0\caffe.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\SoftwareDK\Caffe-Windows\caffe\include\caffe\proto\caffe_pb2.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D6102597-C25C-48C0-9D25-51352A668723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C4B987C2-187C-4313-8654-0143058FFC55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2DB1DD22-5854-4FD1-AA0C-88230B789215}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
